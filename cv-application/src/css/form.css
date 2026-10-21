@@ -1,0 +1,39 @@
+.formPanel {
+  display: grid;
+  gap: 24px;
+}
+
+.formPanel > div {
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+}
+
+.form-title {
+  margin: 0 0 20px;
+  font-size: 20px;
+}
+
+.formPanel form {
+  display: grid;
+  gap: 8px;
+}
+
+.formPanel label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.formPanel input {
+  width: 100%;
+  min-width: 0;
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  border: 1px solid #bac4d2;
+  border-radius: 6px;
+}
+
+.formPanel input:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}

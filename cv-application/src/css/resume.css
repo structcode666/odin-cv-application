@@ -1,0 +1,87 @@
+.resumePanel {
+  width: 100%;
+  max-width: 794px;
+  min-height: 1123px;
+  justify-self: center;
+
+  padding: 48px;
+  background: white;
+  color: #222;
+  box-shadow: 0 8px 30px rgb(0 0 0 / 10%);
+  overflow-wrap: anywhere;
+
+  position: sticky;
+  top: 24px;
+
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+}
+
+.resumePanel .Name {
+  margin-bottom: 8px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.resumePanel .Email,
+.resumePanel [class="Phone Number"] {
+  font-size: 14px;
+  color: #596579;
+}
+
+.resumePanel .Education {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid #d8dee8;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.resumePanel .University {
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.resumePanel [class="Year Graduated"] {
+  color: #596579;
+}
+
+.resumePanel .work-experience {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #d8dee8;
+}
+
+.resumePanel .Employer {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.resumePanel .Role {
+  font-weight: 600;
+}
+
+.resumePanel [class="Start Date"],
+.resumePanel [class="End Date"] {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 14px;
+  color: #596579;
+}
+
+.resumePanel .Responsibilities {
+  margin-top: 12px;
+  white-space: pre-wrap;
+}
+
+.edit-form {
+  margin-top: 24px;
+}
+
+@media (max-width: 850px) {
+  .resumePanel {
+    min-height: auto;
+    padding: 24px;
+  }
+}
